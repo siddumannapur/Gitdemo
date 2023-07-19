@@ -71,6 +71,7 @@ public void enter_all_the_details() {
 public void order_the_item() {
 	driver.findElement(By.id("continue")).click();
 	driver.findElement(By.id("finish")).click();
+	System.out.println("order placed successfully");
 }
 
 
